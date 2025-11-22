@@ -2,9 +2,9 @@
 
 A Neovim plugin for managing daily notes across workspaces.
 
-https://github.com/user-attachments/assets/fcb55eda-de7d-4f63-884e-3cbe9a6afd92
+https://github.com/user-attachments/assets/a25d5486-1570-428c-a4c2-84dde0ab94aa
 
-https://github.com/user-attachments/assets/f87247d4-d34e-40f4-9a65-96ed430ddf82
+https://github.com/user-attachments/assets/9f8e781c-ee0a-4fa8-9f2f-9e0d2224e8f6
 
 ## Installation
 
