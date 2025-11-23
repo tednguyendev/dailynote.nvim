@@ -85,10 +85,10 @@ function M.setup(opts)
   local commands = {
     { "DailyNote",          function(cmd) M.create_today(parse_ws_arg(cmd), false) end },
     { "DailyNoteRepeat",    function(cmd) M.create_today(parse_ws_arg(cmd), true) end },
-    { "TomorrowNote",       function(cmd) M.create_tmr(parse_ws_arg(cmd), false) end },
-    { "TomorrowNoteRepeat", function(cmd) M.create_tmr(parse_ws_arg(cmd), true) end },
-    { "PreviousDailyNote",  function(cmd) M.show_prev(parse_ws_arg(cmd)) end },
-    { "NextDailyNote",      function(cmd) M.show_next(parse_ws_arg(cmd)) end },
+    { "DailyNoteTomorrow",       function(cmd) M.create_tmr(parse_ws_arg(cmd), false) end },
+    { "DailyNoteTomorrowRepeat", function(cmd) M.create_tmr(parse_ws_arg(cmd), true) end },
+    { "DailyNotePrevious",  function(cmd) M.show_prev(parse_ws_arg(cmd)) end },
+    { "DailyNoteNext",      function(cmd) M.show_next(parse_ws_arg(cmd)) end },
   }
 
   for _, cmd in ipairs(commands) do

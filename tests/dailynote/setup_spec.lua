@@ -31,40 +31,40 @@ describe("Setup Module", function()
       assert.truthy(vim.api.nvim_get_commands({}).DailyNoteRepeat)
     end)
 
-    it("creates TomorrowNote command", function()
+    it("creates DailyNoteTomorrow command", function()
       setup.setup({
         workspaces = {
           { name = "test", path = test_dir },
         },
       })
-      assert.truthy(vim.api.nvim_get_commands({}).TomorrowNote)
+      assert.truthy(vim.api.nvim_get_commands({}).DailyNoteTomorrow)
     end)
 
-    it("creates TomorrowNoteRepeat command", function()
+    it("creates DailyNoteTomorrowRepeat command", function()
       setup.setup({
         workspaces = {
           { name = "test", path = test_dir },
         },
       })
-      assert.truthy(vim.api.nvim_get_commands({}).TomorrowNoteRepeat)
+      assert.truthy(vim.api.nvim_get_commands({}).DailyNoteTomorrowRepeat)
     end)
 
-    it("creates PreviousDailyNote command", function()
+    it("creates DailyNotePrevious command", function()
       setup.setup({
         workspaces = {
           { name = "test", path = test_dir },
         },
       })
-      assert.truthy(vim.api.nvim_get_commands({}).PreviousDailyNote)
+      assert.truthy(vim.api.nvim_get_commands({}).DailyNotePrevious)
     end)
 
-    it("creates NextDailyNote command", function()
+    it("creates DailyNoteNext command", function()
       setup.setup({
         workspaces = {
           { name = "test", path = test_dir },
         },
       })
-      assert.truthy(vim.api.nvim_get_commands({}).NextDailyNote)
+      assert.truthy(vim.api.nvim_get_commands({}).DailyNoteNext)
     end)
   end)
 

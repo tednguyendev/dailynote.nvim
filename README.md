@@ -41,10 +41,10 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 - `:DailyNote [workspace]` - Create or open today's note
 - `:DailyNoteRepeat [workspace]` - Create or open today's note with content from previous note
-- `:TomorrowNote [workspace]` - Create or open tomorrow's note
-- `:TomorrowNoteRepeat [workspace]` - Create or open tomorrow's note with content from today's note
-- `:PreviousDailyNote [workspace]` - Navigate to the previous daily note
-- `:NextDailyNote [workspace]` - Navigate to the next daily note
+- `:DailyNoteTomorrow [workspace]` - Create or open tomorrow's note
+- `:DailyNoteTomorrowRepeat [workspace]` - Create or open tomorrow's note with content from today's note
+- `:DailyNotePrevious [workspace]` - Navigate to the previous daily note
+- `:DailyNoteNext [workspace]` - Navigate to the next daily note
 
 ## Configuration
 
